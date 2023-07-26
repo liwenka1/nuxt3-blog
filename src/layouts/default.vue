@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h1>这里是一个layouts组件</h1>
+    <Header />
     <main>
       <slot />
       <Footer />
@@ -9,5 +9,6 @@
 </template>
 
 <script lang="ts" setup>
+import Header from './components/Header.vue'
 import Footer from './components/Footer.vue'
 </script>
