@@ -14,7 +14,7 @@
         </p>
         <button class="btn btn-primary">Get Started</button>
         <div>pos: {{ x }}, {{ y }}</div>
-      </div>       
+      </div>
     </div>
   </div>
 </template>

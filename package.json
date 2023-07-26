@@ -58,9 +58,8 @@
       "npm run prettier",
       "stylelint --fix"
     ],
-    "*.{scss,css}": [
-      "stylelint --fix",
-      "npm run prettier"
+    "*.{css}": [
+      "stylelint --fix"
     ],
     "*.md": [
       "npm run prettier"
