@@ -12,7 +12,8 @@
         "prettier:comment": "自动格式化当前目录下的所有文件",
         "prettier": "prettier --write \"**/*.{js,cjs,ts,json,tsx,css,less,scss,vue,html,md}\"",
 		"stylelint": "stylelint  \"**/*.{css,vue}\" --fix",
-        "lint-staged": "lint-staged"
+        "lint-staged": "lint-staged",
+		"commit": "git-cz"
     },
     "devDependencies": {
         "@commitlint/cli": "^17.6.7",
