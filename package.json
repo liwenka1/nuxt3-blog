@@ -31,6 +31,7 @@
     "eslint-config-prettier": "^8.8.0",
     "eslint-plugin-prettier": "^5.0.0",
     "eslint-plugin-vue": "^9.15.1",
+    "fast-glob": "3.2.11",
     "husky": "^8.0.3",
     "lint-staged": "^13.2.3",
     "nuxt": "^3.6.5",
@@ -39,7 +40,8 @@
     "stylelint": "^15.10.2",
     "stylelint-config-html": "^1.1.0",
     "stylelint-config-recess-order": "^4.3.0",
-    "stylelint-config-standard": "^34.0.0"
+    "stylelint-config-standard": "^34.0.0",
+    "vite-plugin-svg-icons": "2.0.1"
   },
   "dependencies": {
     "@pinia/nuxt": "^0.4.11",

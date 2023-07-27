@@ -2,8 +2,14 @@
   <header>
     <label class="swap">
       <input type="checkbox" @click="toggleDark" />
-      <div class="swap-on">ON</div>
-      <div class="swap-off">OFF</div>
+      <div class="swap-on">
+        ON
+        <SvgIcon icon-class="sun" />
+      </div>
+      <div class="swap-off">
+        OFF
+        <SvgIcon icon-class="sun" />
+      </div>
     </label>
   </header>
 </template>
