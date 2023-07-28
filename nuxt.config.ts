@@ -10,7 +10,7 @@ export default defineNuxtConfig({
   vite: {
     plugins: [
       createSvgIconsPlugin({
-        iconDirs: [path.resolve(process.cwd(), '@/assets/icons')]
+        iconDirs: [path.resolve(process.cwd(), 'src/assets/icons')]
       })
     ]
   }

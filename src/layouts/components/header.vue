@@ -4,7 +4,7 @@
       <input type="checkbox" @click="toggleDark" />
       <div class="swap-on">
         ON
-        <SvgIcon icon-class="sun" />
+        <SvgIcon icon-class="moon" />
       </div>
       <div class="swap-off">
         OFF
