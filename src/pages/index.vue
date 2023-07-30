@@ -1,34 +1,30 @@
 <template>
   <div
-    class="min-h-screen hero"
-    :style="{ backgroundImage: 'url(https://placeimg.com/1000/800/arch)' }"
+    class="w-full h-screen relative overflow-hidden bg-top-center bg-cover bg-fixed bg-no-repeat"
+    style="background-image: url("/assets/img/bg01.jpg")"
+  ></div>
+  <div
+    class="w-full h-20 mx-0 my-auto text-justify flex items-center justify-items-center flex-col"
   >
-    <div class="bg-opacity-60 hero-overlay" />
-    <div class="text-center hero-content text-neutral-content">
-      <div class="max-w-md">
-        <h1 class="mb-5 text-5xl font-bold">Hello there</h1>
-        <p class="mb-5">
-          Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda
-          excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a
-          id nisi.
-        </p>
-        <button class="btn btn-primary">Get Started</button>
-        <div>pos: {{ x }}, {{ y }}</div>
-      </div>
-    </div>
+    <span>还得是二次元</span>
   </div>
+  <div
+    class="w-full h-screen relative overflow-hidden bg-top-center bg-cover bg-fixed bg-no-repeat"
+    style="background-image: url("/assets/img/bg02.jpg")"
+  ></div>
+  <div
+    class="w-full h-20 mx-0 my-auto text-justify flex items-center justify-items-center flex-col"
+  >
+    <span>还得是二次元</span>
+  </div>
+  <div
+    class="w-full h-screen relative overflow-hidden bg-top-center bg-cover bg-fixed bg-no-repeat"
+    style="background-image: url("/assets/img/bg03.jpg")"
+  ></div>
 </template>
 
 <script lang="ts" setup>
-const { x, y } = useMouse()
 useHead({
-  title: 'nuxt3-template',
-  link: [
-    {
-      rel: 'icon',
-      type: 'image/png',
-      href: '/nuxt.png'
-    }
-  ]
+  title: 'nuxt3-template'
 })
 </script>
