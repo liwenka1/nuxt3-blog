@@ -4,9 +4,9 @@
     style="background-image: url("/assets/img/header.png")"
   >
     <div class="navbar-start">
-      <spanF
+      <span
         class="flex items-center h-full mx-1 cursor-pointer hover:text-pink-300"
-        >Li WenKai</spanF
+        >Li WenKai</span
       >
     </div>
     <div class="navbar-end">
