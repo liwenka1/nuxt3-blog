@@ -14,7 +14,7 @@
   </header>
 </template>
 
-<script lang="ts" setup>
+<script setup lang="ts">
 let isDark = ref<boolean>(false)
 const toggleDark = () => {
   isDark.value = !isDark.value
